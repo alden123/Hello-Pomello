@@ -450,6 +450,11 @@ ul.service-list li i
 TESTIMONIAL
 ************************************
 ***********************************/
+
+.corner {
+  border-radius: 50%;
+}
+
 #testimonial
 {
     background: url('../img/bg.jpg') no-repeat;
