@@ -167,12 +167,12 @@ HEADER
     transition: color 0.2s ease-out;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #be9e21;
+    color: #FE504F;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     background-color: transparent;
-    color: #be9e21;
+    color: #FE504F;
 }
 .banner-info
 {
@@ -199,6 +199,10 @@ h2.bnr-sub-title
 .bnr-para
 {
     font-weight: 300;
+
+
+
+
 }
 .btn-download, .btn-more, .btn-download:hover, .btn-download:focus, .btn-more:focus
 {
@@ -221,18 +225,27 @@ h2.bnr-sub-title
 
 .btn-download
 {
-    background-color: #be9e21;
+    background-color: #FE504F;
 }
+.btn-download:hover
+{
+    background-color: #898785;
+}
+
 .btn-more, .btn-more:focus
 {
     margin-left: 15px;
     border: 1px solid #be9e21;
-    color: #be9e21;
+    color: white;
 }
-
+.btn-more, .btn-more:focus {
+    margin-left: 15px;
+    border: 1px solid #FE504F;
+    color: #FE504F;
+}
 .btn-more:hover {
-    background: #be9e21;
-    color: #fff;
+    background: #898785;
+    color: #6E6865;
 }
 
 .overlay-detail a i{
@@ -269,7 +282,7 @@ features
     border-top: 0px;
     height: 3px;
     width: 40px;
-    background-color: #BE9E21;
+    background-color: #FE504F;
 }
 .wrap-item h3 {
     font-size: 24px;
@@ -581,7 +594,7 @@ contact
 ***********************************/
 #contact
 {
-    background-color: rgb(73, 84, 105);
+/*    background-color: rgb(73, 84, 105);*/
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
@@ -658,6 +671,8 @@ contact
 #footer
 {
     padding: 20px 0px;
+    background-color: rgba(250, 250, 250, 0.9);
+    color: black;
 }
 .scrollToTop {
     position: fixed;
@@ -708,7 +723,7 @@ cta
 }
 .cta .cta-info .cta-btn {
     margin-top: 16px;
-    background-color: rgb(190, 158, 33);
+    background-color: rgba(200, 200, 200, 0.7);
     padding: 20px 50px;
     color: #FFF;
     font-size: 22px;
@@ -794,4 +809,33 @@ body{
     line-height: 22px;
     text-align: center;
 }
+}
+.portfolio-item {
+  height: 200px;
+}
+
+.banner {
+
+  color: white;
+  text-align: center;
+  height: calc(105vh - 30px) !important;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+    //added effects for banner parallax
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.fixed {
+  background-color: rgba(250, 250, 250, 0.9);
+ /*    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
 }
