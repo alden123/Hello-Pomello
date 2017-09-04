@@ -6,7 +6,7 @@
 $contact_email_to = "alexandre.deniau@outlook.fr";
 
 // Subject prefix
-$contact_subject_prefix = "Contact Form Message: ";
+$contact_subject_prefix = "Nouveau client";
 
 // Name too short error text
 $contact_error_name = "Name is too short or empty!";
