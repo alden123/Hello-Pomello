@@ -839,3 +839,8 @@ body{
     background-size: cover;
 */
 }
+
+.just-over-xs {
+    height: 27vh !important;
+    width: auto;
+}
