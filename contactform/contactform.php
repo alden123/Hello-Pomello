@@ -3,7 +3,7 @@
 /* Contact form script configuartion */
 
 // Enter your email, where you want to receive the messages.
-$contact_email_to = "alexandre.deniau@outlook.fr";
+$contact_email_to = "gblanchy@hello-pomelo.com";
 
 // Subject prefix
 $contact_subject_prefix = "Nouveau client";
