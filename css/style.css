@@ -837,3 +837,9 @@ body{
     height: 27vh !important;
     width: auto;
 }
+
+
+.list-inline-item {
+  background-color: gray;
+  color: white;
+}
