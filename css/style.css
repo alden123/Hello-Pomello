@@ -593,9 +593,9 @@ contact
 {
     background-color: transparent;
     border-radius: 60px;
-    color: #be9e21;
+    color: white;
     font-weight: 400;
-    border: 1px solid #be9e21;
+    border: 1px solid white;
     font-size: 14px;
     padding: 6px 20px;
 }
@@ -603,17 +603,23 @@ contact
 {
     background-color: transparent;
     border-radius: 0px;
-    color: #be9e21 !important;
-    border-color: #be9e21;
+    color: white !important;
+    border-color: white;
 }
 .form-control:focus {
-    border-color: #be9e21;
+    border-color: #be9e21 ;
+    color: #be9e21;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
 }
 .contact-form input.form-control{
     color: #fff;
+}
+
+#name {
+color: white;
+font: bold 12px;
 }
 
 .validation {
