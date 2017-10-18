@@ -850,11 +850,16 @@ body{
   color: white;
 }
 
-
+/* Iphone 5 */
 @media only screen
 and (max-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : portrait) {
-body {
-  width: 109%;}
+ .navbar-header {
+  width: 94% !important;}
+  body {
+  width: 109% !important;}
+  .navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
+  width: 90%;
+  }
 }
